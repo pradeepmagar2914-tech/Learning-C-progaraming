@@ -1,0 +1,98 @@
+#include<stdio.h>
+
+int main( ) {
+	int a,b,c,d;
+	
+	printf("Enter first nymber: ");
+	scanf("%d", &a);
+	
+	printf("Enter second number: ");
+	scanf("%d", &b);
+	
+	printf("Enter third number: ");
+	scanf("%d", &c);
+	
+	printf("Enter forth number: ");
+	scanf("%d", &d);
+	
+	if (a < b && a < c && a < d) {
+			printf("Smallest number =%d", a);
+			
+	}
+	else if (b<a && b<c && b<d) {
+			printf("Smallest number=%d", b);
+			
+	}
+	
+	else if (c<a && c<b && c<d) {
+			printf("Smallest number=%d", c);
+	}
+			
+			else {
+			printf("Smallest number=%d", d);
+			
+	}
+	
+	return 0;
+	if(a < b && a < c && a < d) {
+    // a smallest
+}
+else if(b < a && b < c && b < d) {
+    // b smallest
+}
+else if(c < a && c < b && c < d) {
+    // c smallest
+}
+else {
+}
+			
+		return 0;
+		
+}#include<stdio.h>
+
+int main( ) {
+	int a,b,c,d;
+	
+	printf("Enter first nymber: ");
+	scanf("%d", &a);
+	
+	printf("Enter second number: ");
+	scanf("%d", &b);
+	
+	printf("Enter third number: ");
+	scanf("%d", &c);
+	
+	printf("Enter forth number: ");
+	scanf("%d", &d);
+	
+	if (a < b && a < c && a < d) {
+			printf("Smallest number =%d", a);
+			
+	}
+	else if (b<a && b<c && b<d) {
+			printf("Smallest number=%d", b);
+			
+	}
+	
+	else if (c<a && c<b && c<d) {
+			printf("Smallest number=%d", c);
+			
+			else {
+			printf("Smallest number=%d", d);
+			
+	}
+	
+	return 0;
+	if(a < b && a < c && a < d) {
+    // a smallest
+}
+else if(b < a && b < c && b < d) {
+    // b smallest
+}
+else if(c < a && c < b && c < d) {
+    // c smallest
+}
+else {
+}
+			
+		
